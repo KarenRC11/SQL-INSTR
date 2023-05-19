@@ -1,0 +1,7 @@
+SELECT INSTR(last_name, 'a')              
+FROM s_emp              
+WHERE id IN (3,6,7);  
+
+--Aquí se quiere saber en qué posición se encuentra la letra 'a' en esos apellidos. La respuesta es 2, 6 y 0.  
+--En 'Nagayama' cuenta la primera 'a', en 'Menchu' la respuesta es 0 porque no hay 'a'.
+
